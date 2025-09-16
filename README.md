@@ -2,10 +2,27 @@
 ## Aim
 To Implement Transfer Learning for classification using VGG-19 architecture.
 ## Problem Statement and Dataset
-Develop an image classification model using transfer learning with the pre-trained VGG19 model.
-</br>
-</br>
-</br>
+Problem Statement :
+
+Capacitor defects are a common issue in the electronics industry, which can lead to faulty circuits and reduced performance of electronic devices. Manual inspection of capacitors is time-consuming and prone to human error. Therefore, there is a need for an automated system that can accurately classify defected and non-defected capacitors using deep learning techniques.
+
+In this project, we implement Transfer Learning using the VGG-19 pre-trained model to build an efficient image classification system. By leveraging a pre-trained network, we can reduce training time, require fewer data samples, and achieve higher accuracy for capacitor defect detection.
+
+Dataset :
+
+The dataset used in this project consists of images of capacitors, categorized into two classes:
+
+Defected Capacitors – capacitors with visible faults or damages.
+
+Non-Defected Capacitors – capacitors without any faults, considered normal.
+
+The dataset is divided into:
+
+Training Set: Used to train the VGG-19 based classification model.
+
+Testing Set: Used to evaluate the model’s performance.
+
+Each image is resized and normalized before being fed into the model for training and prediction.
 
 ## DESIGN STEPS
 
